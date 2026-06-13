@@ -29,8 +29,7 @@ the Schema files/
     ├── HUMAN-SCHEMA-GUIDE.md      (The manual written purely for humans to understand the psychology)
     ├── SPEC-00-META-COGNITION.md  (The OS instructions for the AI to adopt our architectural constraints)
     ├── llm_schema.agent.final/    (Extracted research material supporting the architecture)
-    ├── llm_schema.agent.final.pdf (The full Kimi/Attention research PDF)
-    └── llm_schema.agent.final.zip (Archive of the research material)
+    └── llm_schema.agent.final.pdf (The full Kimi/Attention research PDF)
 ```
 
 ## How to Use This
@@ -39,3 +38,10 @@ the Schema files/
 2. **AI / Machines:** Point your AI's core instructions to `scheme explanation/SPEC-00-META-COGNITION.md` to force it to adopt the mathematical formatting limits of the system.
 3. **Planners:** Use `for_planner_mode/PLANNER-MODE-SPEC.md` when initiating a new project to generate a flawless setup.
 4. **Day-to-day Coding:** The files in `ai_rules_template_bundle/` serve as your standard `.ai-rules` environment inside your repos.
+
+## Important Restriction for AI Agents
+
+<absolute-constraints>
+- UNDER NO CIRCUMSTANCES should an LLM read the massive `llm_schema.agent.final/` research folder or `llm_schema.agent.final.pdf` during standard day-to-day operations.
+- You may ONLY access these research files if the user EXPLICITLY instructs you to do so, or if your specific task is to modify the underlying structural schema itself. Reading them unnecessarily will cause severe context window bloat and attention dilution.
+</absolute-constraints>
