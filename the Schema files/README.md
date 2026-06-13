@@ -27,7 +27,10 @@ the Schema files/
 │
 └── scheme explanation/            (The capstone meta-documentation explaining the OS architecture)
     ├── HUMAN-SCHEMA-GUIDE.md      (The manual written purely for humans to understand the psychology)
-    └── SPEC-00-META-COGNITION.md  (The OS instructions for the AI to adopt our architectural constraints)
+    ├── SPEC-00-META-COGNITION.md  (The OS instructions for the AI to adopt our architectural constraints)
+    ├── llm_schema.agent.final/    (Extracted research material supporting the architecture)
+    ├── llm_schema.agent.final.pdf (The full Kimi/Attention research PDF)
+    └── llm_schema.agent.final.zip (Archive of the research material)
 ```
 
 ## How to Use This
